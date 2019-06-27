@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
     - image: circleci/ruby:2.4.1-node-browsers
-    working_directory: ~/repo
+    working_directory: ~/eleventy-netlify-boilerplate
     steps:
     - checkout
     - run:
